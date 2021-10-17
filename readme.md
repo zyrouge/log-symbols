@@ -9,14 +9,14 @@ Includes fallbacks for Windows CMD which only supports a [limited character set]
 ## Install
 
 ```
-$ npm install log-symbols
+$ npm install @zyrouge/log-symbols-no-esm
 ```
 
 ## Usage
 
 ```ts
-const logSymbols = require("log-symbols"); // JavaScript
-import logSymbols from "log-symbols"; // Typescript
+const logSymbols = require("@zyrouge/log-symbols-no-esm"); // JavaScript
+import logSymbols from "@zyrouge/log-symbols-no-esm"; // Typescript
 
 console.log(logSymbols.success, "Finished successfully!");
 // Terminals with Unicode support:     ✔ Finished successfully!

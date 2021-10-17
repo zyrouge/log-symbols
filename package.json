@@ -1,5 +1,5 @@
 {
-    "name": "log-symbols-no-esm",
+    "name": "@zyrouge/log-symbols-no-esm",
     "version": "5.0.0",
     "description": "Colored symbols for various log levels. Example: `✔︎ Success`",
     "main": "./dist/index.js",
